@@ -12,8 +12,7 @@ RUN pip install --upgrade pip \
         musl-dev \
         perl \
         postgresql-dev \
-    && pip install \
-        https://github.com/ansible/ansible/archive/v2.3.0.0-0.1.rc1.tar.gz \
+    && pip install ansible \
         boto3 \
         psycopg2 \
         awscli
