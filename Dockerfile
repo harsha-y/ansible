@@ -9,10 +9,13 @@ RUN pip install --upgrade pip \
         sshpass \
         gcc \
         libffi-dev \
+        make \
         musl-dev \
         perl \
         postgresql-dev \
     && pip install ansible \
+        boto \
+        botocore \
         boto3 \
         psycopg2 \
         awscli
