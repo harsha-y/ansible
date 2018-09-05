@@ -13,7 +13,7 @@ RUN pip install --upgrade pip \
         musl-dev \
         perl \
         postgresql-dev \
-    && pip install ansible \
+    && pip install ansible==2.5.8 \
         boto \
         botocore \
         boto3 \
